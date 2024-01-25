@@ -1,81 +1,81 @@
 /* general */
 
-a{
-    text-decoration: none;
-} 
-ul{
-    list-style: none;
+a {
+  text-decoration: none;
 }
-/* Navbar */  
-.navbar{
-    width: 80%;
+ul {
+  list-style: none;
 }
-.Nav{
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;  
-    height: 60px; 
-    width: 100%;
-    position: fixed;
+/* Navbar */
+.Navbar {
+  width: 72%;
+  margin: 0 auto;
 }
-.menu{
-width: 30%; 
-display: flex;
-align-content: center;
+.Nav {
+  display: flex;
+  width: 73%;
+  height: 70px;
+  background: #fff;
+  justify-content: space-between;
+  position: fixed;
 }
-
 .Nav img {
-width: 27%; 
-} 
-.drop{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    width: 97%;
-    margin: 0 auto;
-}  
+  width: 27%;
+}
+.menu {
+  width: 30%;
+  display: flex;
+  align-content: center;
+}
+
+.drop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 97%;
+  margin: 0 auto;
+}
 .drop li {
-    margin: 10px;
+  margin: 10px;
 }
-span{
-    color: #00b39b; 
-    font-size: 15px;
-    font-weight: 500;
-} 
+span {
+  color: #00b39b;
+  font-size: 15px;
+  font-weight: 500;
+}
 .drop li a {
-    color: #ababab; ;
-    font-size: 15px;
-    font-weight: 500;
-
-} 
-.drop li a:hover {
-    color: #00b39b;
-}  
-.list{ 
-
-    position: relative;
+  color: #ababab;
+  font-size: 15px;
+  font-weight: 500;
 }
-.drop-list{ 
-    display: flex; 
-    flex-direction: column;
-    box-shadow: 0 5px 10px 0 #d3cfc9;
-    position: absolute; 
-    width: 210px; 
-    flex-wrap: wrap;
-    right: 0;
-    padding: 0;
-}  
-.drop-list :hover{
-    color: #00b39b; 
+.drop li a:hover {
+  color: #00b39b;
+}
+.list {
+  position: relative;
+}
+.drop-list {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  position: absolute;
+  width: 210px;
+  flex-wrap: wrap;
+  right: 0;
+  padding: 0;
+  background: #fff;
+}
+.drop-list :hover {
+  color: #00b39b;
 }
 .drop-list li {
-    display: none;
-    margin: 10px;
-    width: 100%; 
-    font-size: 15px; 
-    font-weight: 500;
-    color: #ababab;
+  display: none;
+  margin: 10px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ababab;
 }
 .list:hover > .drop-list li {
-    display: flex;
+  display: flex;
 }

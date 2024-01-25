@@ -1,78 +1,81 @@
 /* general */
 
-
 /* title */
-h1{
-    color: #fff;
-    font-size: 1.625em;
-    font-weight: 400;
-    margin: 0.3em 0;
-} 
-h2{
-    font-size: 1.5em;
-    font-weight: 300;
-    line-height: 1.2;
-    margin: 0;
-    color: #fff;
-} 
+h1 {
+  color: #fff;
+  font-size: 1.625em;
+  font-weight: 400;
+  margin: 0.3em 0;
+}
+h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+  color: #fff;
+}
 /* list */
-select{
-border: none;
-margin-bottom: 30px;
-text-decoration: underline;
-cursor: pointer;
-font-size: 20px;
-font-weight: 500;
-color: #fff;
-} 
+select {
+  border: none;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
 /* boxs */
-.boxs{
-    width: 70%;
-    display: flex;
-    justify-content: space-around; 
-    margin: 0 auto;
-    flex-wrap: wrap;
-} 
-.box{
-    width: 30%; 
-    height: 345px; 
-    border-radius: 10px;
-    padding: 2em 2em 0;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.boxs {
+  width: 73%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-top: 55px;
+}
+.box {
+  width: 30%;
+  height: 345px;
+  border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 /* icon-size */
-.box img{
-    width: 24px;
-    height: 24px;
-} 
+.box img {
+  width: 24px;
+  height: 24px;
+}
 /* background-color box */
 .item1 {
-    background-color: #00ccb1;
-} 
+  background-color: #00ccb1;
+}
 .item2 {
-    background-color: #3d83df;
-} 
+  background-color: #3d83df;
+}
 .item3 {
-    background-color:#1b2734;
-} 
+  background-color: #1b2734;
+}
 /* background-color list */
-.item1 select{
-    background-color: #00ccb1;
+.item1 select {
+  background-color: #00ccb1;
 }
-.item2 select{
-    background-color: #3d83df;
+.item2 select {
+  background-color: #3d83df;
 }
-.item3 select{
-    background-color:#1b2734;
-} 
+.item3 select {
+  background-color: #1b2734;
+}
 /* Responsive */
-@media (max-width: 400){
-   .box{
-    display:block ; 
-    width: 100%; 
-   }
+@media (max-width: 400) {
+  .boxs {
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
+    margin-top: 20px;
+  }
 }

@@ -3,11 +3,16 @@ import "../CSS/Boxs.css";
 const boxs = () => {
   return (
     <div className="boxs">
-      <div className="box item1"> 
-      <div className="box-intro">
-        <img src="https://www.docplanner.com/icons/icon-patients.svg" alt="" />
-        <h1>For patients</h1>
-        <h2>Find a doctor, book a visit and solve any health-related doubt</h2>
+      <div className="box item1">
+        <div className="box-intro">
+          <img
+            src="https://www.docplanner.com/icons/icon-patients.svg"
+            alt=""
+          />
+          <h1>For patients</h1>
+          <h2>
+            Find a doctor, book a visit and solve any health-related doubt
+          </h2>
         </div>
         <select name="" id="">
           <option value="">
@@ -29,11 +34,11 @@ const boxs = () => {
         </select>
       </div>
       <div className="box item2">
-      <div className="box-intro">
-        <img src="https://www.docplanner.com/icons/icon-doctors.svg" alt="" />
-        <h1>For doctors</h1>
-        <h2>Save time managing visits and cut no-shows by half</h2>
-        </div> 
+        <div className="box-intro">
+          <img src="https://www.docplanner.com/icons/icon-doctors.svg" alt="" />
+          <h1>For doctors</h1>
+          <h2>Save time managing visits and cut no-shows by half</h2>
+        </div>
         <select name="" id="">
           <option value="">
             <a href="">Choose country</a>
@@ -53,11 +58,11 @@ const boxs = () => {
           <option value="">Turkey</option>
         </select>
       </div>
-      <div className="box item3"> 
+      <div className="box item3">
         <div className="box-intro">
-        <img src="https://www.docplanner.com/icons/icon-clinics.svg" alt="" />
-        <h1>For clinics</h1>
-        <h2>Deliver an exceptional patient experience in your clinic</h2>
+          <img src="https://www.docplanner.com/icons/icon-clinics.svg" alt="" />
+          <h1>For clinics</h1>
+          <h2>Deliver an exceptional patient experience in your clinic</h2>
         </div>
         <select name="" id="">
           <option value="">
