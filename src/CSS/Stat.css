@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.stats {
+  background: #e5faf8;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(0, 204, 177, 0.01) 5%,
+    rgba(61, 199, 223, 0.1)
+  );
+  padding: 1.875em 0 0.625em;
+  overflow: hidden;
+  margin: 3.125rem auto 5.5rem;
+  height: 645px;
+}
+.sous-stat {
+  width: 73%;
+  margin: 0 auto;
+  display: flex;
+}
+.stat-intro {
+  width: 50%;
+  margin: 15px;
+}
+.stat-intro h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  text-align: center;
+  width: 70%;
+}
+.stat-intro p {
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.7142857143;
+  width: 82%;
+  margin: 20px;
+}
+.stat-intro img {
+  padding: 0;
+  margin-top: 40px;
+}
+.stat {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.mini-stat {
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8125em;
+  margin: 8px;
+  display: table-cell;
+  width: 220px;
+  height: 265px;
+}
+.mini-stat h3 {
+  font-size: 1.8461538462em;
+  color: #00b39b;
+  margin: 0.5em 0;
+  width: 100%;
+}
+.block1 {
+  margin-top: 40px;
+  width: 220px;
+  height: 270px;
+}
+
+.block4 {
+  margin-top: -18px;
+  width: 220px;
+  height: 270px;
+}

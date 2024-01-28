@@ -3,14 +3,16 @@ import  Nav  from './Components/Nav.js'
 import Overaly from './Components/Overaly.js'
 import Boxs from './Components/Boxs.js'
 import Links from './Components/Links.js'
+import Stat from './Components/Stat.js'
 
 const App = () => {
   return (
     <>
-      {/* <Nav/>
+      <Nav/>
       <Overaly/>
-      <Boxs /> */}
+      <Boxs />
       <Links/>
+      <Stat/>
     </>
   )
 }

@@ -4,7 +4,7 @@ import "../CSS/Links.css";
 const Links = () => {
   return (
     <div className="intro-links">
-      <h3>We are a global company with local culture</h3>
+      <h3>We are a global<br></br> company<br></br> with local culture</h3>
       <div className="links">
         <ul>
             <li>
